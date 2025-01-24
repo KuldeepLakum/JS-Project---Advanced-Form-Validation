@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+html, body{
+    background-color: whitesmoke;
+    color: #000000;
+    height: 100vh;
+    width: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container{
+    width: 90%;
+    background-color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    max-width: 450px;
+    border-radius: 10px;
+
+}
+.Form-titile{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #4272ff;
+    background-clip: text;
+}
+.form-group{
+    margin-bottom: 10px;
+    text-align: left;
+}
+ label{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 5px;
+    display: block;
+    color: #000000;
+    
+}
+ input{
+    width: 95%;
+    outline: none;
+    padding: 4px ;
+    border-radius: 3px;
+    border: none;
+    /* border: 1px solid grey; */
+    background-color: whitesmoke;
+    transition: 0.3s;
+}
+::placeholder{
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 0 0 0 15px ;
+}
+.password-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.toggle-password {
+    position: absolute;
+    right: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .error {
+    color: red;
+    font-size: 15px;
+    padding: 8px;
+    display: none;
+  }
+/* .smbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+} */
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 95%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #4272ff;
+    color: #FFFFFF;
+    padding: 8px 0;
+    font-weight: 600;
+}
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+  }

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regition form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="Form-titile">Registion Form</h2>
+      <form action="" id="form">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" placeholder="Enter Your Full Name" id="fullname" />
+          <span class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Enter Your Email" id="email" />
+          <span class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="contect-num">Contact Number</label>
+          <input
+            type="number"
+            placeholder="Enter Your contect Number"
+            id="contectnum"
+          />
+          <span class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="Password">Password </label>
+          <div class="password-container">
+            <input
+              type="password"
+              placeholder="Enter Your Password"
+              id="password"
+            />
+            <button type="button" id="togglePassword" class="toggle-password">
+              👁️
+            </button>
+            <span class="error"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="confirm-pass">Confirm Password </label>
+          <div class="password-container">
+            <input
+              type="password"
+              placeholder="Enter Your confirm password"
+              id="confirmpass"
+            />
+            <button
+              type="button"
+              id="togglePasswordconfirm"
+              class="toggle-password"
+            >
+              👁️
+            </button>
+            <span class="error"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="city">City </label>
+          <input type="text" placeholder="Enter Your City" id="city" />
+          <span class="error"></span>
+        </div>
+        <div class="form-group">
+          <label for="fullname">Country </label>
+          <input type="country" placeholder="Enter Your country" id="country" />
+          <span class="error"></span>
+        </div>
+        <div class="smbtn">
+          <button type="submit" class="signup">Signup</button>
+        </div>
+        <p id="successMessage" class="success"></p>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
