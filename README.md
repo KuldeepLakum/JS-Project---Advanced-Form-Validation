@@ -57,6 +57,10 @@ git clone https://github.com/KuldeepLakum/form-validation.git
 
 • JavaScript – Handling form validation and interactivity.
 
+📸 Screenshots
+
+![Screenshot 2025-02-01 093745](https://github.com/user-attachments/assets/c0e06c70-ac41-4846-bdce-37c77a5a7253)
+
 🔥 Future Enhancements
 
 📌 Improve error message styling.
@@ -71,6 +75,6 @@ git clone https://github.com/KuldeepLakum/form-validation.git
 
 📧 Email: your-email@example.com
 
-🔗 GitHub: your-username
+🔗 GitHub: KuldeepLakum
 
 Feel free to contribute or suggest improvements! 🚀
